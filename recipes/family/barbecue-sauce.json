@@ -36,9 +36,27 @@
             "name": "Red Pepper Sauce",
             "quantity": "2",
             "unit": "dashes"
+        },
+        {
+            "name": "Italian Seasoning",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1/4",
+            "unit": "cup"
         }
     ],
     "steps": [
+        {
+            "step": "Mince garlic and onion"
+        },
         {
             "step": "Combine ingredients into a bowl and mix"
         }
