@@ -1,0 +1,48 @@
+{
+    "name": "Meatballs",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Ground Beef",
+            "quantity": "2",
+            "unit": "lb"
+        },
+        {
+            "name": "Crackers",
+            "quantity": "1/2",
+            "unit": "package"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "2",
+            "unit": "none"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1",
+            "unit": "none"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mince onion into small pieces"
+        },
+        {
+            "step": "Crush crackers into small pieces"
+        },
+        {
+            "step": "Combine ingredients into a bowl and mix"
+        },
+        {
+            "step": "Shape mixture into desired shape and size"
+        },
+        {
+            "step": "Cook in a frying pan until browned"
+        }
+    ]
+}
