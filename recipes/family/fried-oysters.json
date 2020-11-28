@@ -1,0 +1,55 @@
+{
+    "name": "Fried Oysters",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Eggs",
+            "quantity": "2",
+            "unit": "none"
+        },
+        {
+            "name": "Cornmeal",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Pepper",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Flour",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Oysters",
+            "quantity": "20",
+            "unit": "oz"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Beat eggs in a bowl and soak oysters"
+        },
+        {
+            "step": "Add flour to a bowl or work suface. Coat oysters in flour. Add oyster back to egg mixture",
+        },
+        {
+            "step": "Add cornmeal, salt, and to a plate or work suface. Batter oysters in mixture"
+        },
+        {
+            "step": "Meltbutter or add oil to a pan to shallow fry on medium-high heat. Fry oysters until cooked through"
+        }
+    ]
+}

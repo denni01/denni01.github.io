@@ -1,0 +1,107 @@
+{
+    "name": "Pumpkin Roll",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Eggs",
+            "quantity": "3",
+            "unit": "none"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Pumpkin",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Lemon Juice",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Flour",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Baking Powder",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Cinnamon",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ginger",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Nutmeg",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Chopped Nuts",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Powdered Sugar",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Cream Cheese",
+            "quantity": "6",
+            "unit": "oz"
+        },
+        {
+            "name": "Butter",
+            "quantity": "4",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Vanilla",
+            "quantity": "1/2",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Add eggs to bowl and beat with a mixer on high for 5 minutes"
+        },
+        {
+            "step": "Gradually add sugar to the beaten eggs while mixing"
+        },
+        {
+            "step": "Combine pumpkin and lemon juice to mixture"
+        },
+        {
+            "step": "Combine flour, baking soda, baking powder, cinnamon, nutmeg, salt into mixture"
+        },
+        {
+            "step": "Spread mixture onto a greased baking sheet. Top mixture with chopped nuts. Bake at 350F for 15 minutes"
+        },
+        {
+            "step": "Remove baked pumpkin roll from pan and place on towel or a working surface coated with dusted with powdered sugar"
+        },
+        {
+            "step": "Roll pumpkin roll into a cylinder and let cool completely"
+        },
+        {
+            "step": "Unroll pumpkin roll and spread on cream cheese. Roll pumpkin roll and chill in a fridge"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Pig Lickin' Good Cake",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Golden Cake Mix",
+            "quantity": "1",
+            "unit": "box"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "4",
+            "unit": "none"
+        },
+        {
+            "name": "Vegetable Oil",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Mandarin Oranges (undrained)",
+            "quantity": "1",
+            "unit": "small can"
+        },
+        {
+            "name": "Crushed Pinapple",
+            "quantity": "20",
+            "unit": "oz"
+        },
+        {
+            "name": "Vanilla Instant Pudding",
+            "quantity": "1",
+            "unit": "box"
+        },
+        {
+            "name": "Cool Whip",
+            "quantity": "8",
+            "unit": "oz"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Bake Golden Cake Mix using instructions on box. Remove cake from oven and cool"
+        },
+        {
+            "step": "Mix remaining ingredients together in a bowl to create icing for the cake"
+        },
+        {
+            "step": "Cover cake using icing"
+        }
+    ]
+}
