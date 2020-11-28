@@ -1,0 +1,42 @@
+{
+    "name": "Fettucine Alfredo",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Cream Cheese",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Parmesan Cheese",
+            "quantity": "3/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Fettucine Noodles",
+            "quantity": "1",
+            "unit": "box"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Boil fettucine noodles in a pot until cooked. Drain and set aside"
+        },
+        {
+            "step": "Combine cream cheese, parmesan cheese, butter, and milk into a saucepan and stir over medium-low heat until melted"
+        },
+        {
+            "step": "Add noodles into sauce and stir"
+        }
+    ]
+}
