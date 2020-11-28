@@ -1,0 +1,52 @@
+{
+    "name": "Freezer Pickles",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Pickles",
+            "quantity": "7",
+            "unit": "none"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Pepper",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Vinegar",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Salt",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Celery Salt",
+            "quantity": "1",
+            "unit": "tbsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Slice pickles and onions into thin pieces"
+        },
+        {
+            "step": "Combine ingredients into a jar. Screw lid onto jar and let sit at room temperature for 2 hours"
+        },
+        {
+            "step": "Stir contents of jar and place jar into freezer"
+        }
+    ]
+}
