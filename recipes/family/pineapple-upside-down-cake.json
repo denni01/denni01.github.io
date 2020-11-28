@@ -1,0 +1,37 @@
+{
+  "name": "Pineapple Upside Down Cake",
+  "image": "",
+  "ingredients": [
+    {
+      "name": "Butter",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "name": "Brown Sugar",
+      "quantity": "1",
+      "unit": "cup"
+    },
+    {
+      "name": "Pineapple Slices",
+      "quantity": "20",
+      "unit": "oz"
+    },
+    {
+      "name": "Duncan Hines Moist Deluxe Pineapple Supreme Cake Mix",
+      "quantity": "1",
+      "unit": "box"
+    }
+  ],
+  "steps": [
+    {
+      "step": "Melt butter in cake pan. Sprinkle brown sugar on bottom of pan. Arrange pineapple on bottom of pan"
+    },
+    {
+      "step": "Create cake batter using ingredients from cake mix"
+    },
+    {
+      "step": "Pour cake batter into cake pan. Bake at 350F for 50 minutes"
+    }
+  ]
+}
