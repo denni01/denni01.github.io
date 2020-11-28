@@ -1,0 +1,39 @@
+{
+    "name": "Red Lobster Tarter Sauce",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Mayonnaise",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "1 1/2",
+            "quantity": "Onion",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Sweet Pickle Relish",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Carrot",
+            "quantity": "1 1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1 1/2",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Finely mince onion. Shred carrot into small pieces"
+        },
+        {
+            "step": "Combine all ingredients in a bowl and mix"
+        }
+    ]
+}
