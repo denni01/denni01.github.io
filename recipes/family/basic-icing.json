@@ -1,0 +1,26 @@
+{
+    "name": "Basic Icing",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Powdered Sugar",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Vanilla",
+            "quantity": "1/2",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Combine ingredients in a bowl and mix"
+        }
+    ]
+}
