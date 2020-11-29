@@ -1,0 +1,64 @@
+{
+    "name": "Homemade Bread",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Yeast",
+            "quantity": "1/2",
+            "unit": "oz"
+        },
+        {
+            "name": "Warm Water",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Salt",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Egg",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Butter",
+            "quantity": "1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Flour",
+            "quantity": "6 1/2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Dissolve yeast in warm water. Add sugar, salt and half of the flour and mix"
+        },
+        {
+            "step": "Combine egg and butter into the dough"
+        },
+        {
+            "step": "Slowly add remaining flour until dough is not sticky"
+        },
+        {
+            "step": "Cover dough with oil and cover with wet towel. Let dough rise until doubled in size"
+        },
+        {
+            "step": "Punch down dough. Cut dough in half and knead each half"
+        },
+        {
+            "step": "Grease and flour two bread pans. Add dough to pans. Let dough rise again"
+        },
+        {
+            "step": "Bake bread at 350F until golden brown"
+        }
+    ]
+}

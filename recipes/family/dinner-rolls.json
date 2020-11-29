@@ -1,0 +1,62 @@
+{
+    "name": "Dinner Rolls",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Dry Yeast",
+            "quantity": "1/4",
+            "unit": "oz"
+        },
+        {
+            "name": "Warm Water",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Flour",
+            "quantity": "3 1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Jiffy Cake Mix",
+            "quantity": "1",
+            "unit": "box"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Butter",
+            "quantity": "2",
+            "unit": "tbsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Dissolve yeast in warm water"
+        },
+        {
+            "step": "Combine flour, cake mix and salt. Do not knead"
+        },
+        {
+            "step": "Cover and let dough rise until it doubles in size"
+        },
+        {
+            "step": "Punch down dough"
+        },
+        {
+            "step": "Divide dough in half and roll each into a 12 inch circle"
+        },
+        {
+            "step": "Cut each half into 12 wedges. Roll each wedge into a ball and place point side down onto a greased baking sheet"
+        },
+        {
+            "step": "Let rolls rise until doubled in size"
+        },
+        {
+            "step": "Melt butter and brush over rolls. Bake at 350F for 12-15 minutes until golden brown"
+        }
+    ]
+}

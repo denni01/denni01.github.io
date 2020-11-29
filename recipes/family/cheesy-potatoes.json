@@ -1,0 +1,55 @@
+{
+    "name": "Cheesy Potatoes",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Hashbrowns",
+            "quantity": "2",
+            "unit": "lb"
+        },
+        {
+            "name": "Cream of Chicken Soup",
+            "quantity": "1",
+            "unit": "can"
+        },
+        {
+            "name": "Sour Cream",
+            "quantity": "16",
+            "unit": "oz"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Shredded Cheese",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Butter",
+            "quantity": "8",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Corn Flakes",
+            "quantity": "2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Combine hashbrowns, sour cream, chopped onion, and cream of chicken soup into a baking pan or casserole dish. Mix thoroughly"
+        },
+        {
+            "step": "Crush corn flakes and sprinkle on top of cheesy potatoes"
+        },
+        {
+            "step": "Melt butter and pour over top of cheesy potatoes"
+        },
+        {
+            "step": "Bake at 350F for 40-45 minutes until potatoes are cooked through"
+        }
+    ]
+}

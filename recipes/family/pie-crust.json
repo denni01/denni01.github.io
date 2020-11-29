@@ -1,0 +1,31 @@
+{
+    "name": "Pie Crust",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Crisco",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Flour",
+            "quantity": "2 2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Water",
+            "quantity": "5",
+            "unit": "tbsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Combine ingredients in a mixing bowl. There should be enough dough for a crust bottom and top"
+        }
+    ]
+}
