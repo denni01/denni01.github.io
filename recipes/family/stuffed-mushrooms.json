@@ -1,0 +1,46 @@
+{
+    "name": "Stuffed Mushrooms",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Stovetop Chicken Stuffing",
+            "quantity": "3/4",
+            "unit": "box"
+        },
+        {
+            "name": "Sausage",
+            "quantity": "1",
+            "unit": "lb"
+        },
+        {
+            "name": "Mushrooms",
+            "quantity": "1",
+            "unit": "lb"
+        },
+        {
+            "name": "Shredded Cheddar Cheese",
+            "quantity": "1",
+            "unit": "lb"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Brown Sausage in a pan over low heat. Drain oil from Sausage"
+        },
+        {
+            "step": "Cook Chicken Stuffing according to package"
+        },
+        {
+            "step": "Combine Sausage, Cheese, and Chicken Stuffing in a mixing bowl. Mix thoroughly"
+        },
+        {
+            "step": "Wash and remove stems from Mushrooms"
+        },
+        {
+            "step": "Stuff Mushrooms with meat mixture"
+        },
+        {
+            "step": "Bake at 350F until stuffing is crispy"
+        }
+    ]
+}

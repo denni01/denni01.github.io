@@ -1,0 +1,76 @@
+{
+    "name": "30 Day Cake",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Cake Starter",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Sliced Peaches in Juice",
+            "quantity": "1",
+            "unit": "qt"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "7 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Pineapple in Juice",
+            "quantity": "20",
+            "unit": "oz"
+        },
+        {
+            "name": "Yellow Cake Mix",
+            "quantity": "1",
+            "unit": "box"
+        },
+        {
+            "name": "Walnuts",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Vegetable Oil",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "4",
+            "unit": "none"
+        },
+        {
+            "name": "Maraschino Cherries",
+            "quantity": "20",
+            "unit": "oz"
+        },
+        {
+            "name": "Instant Vanilla Pudding",
+            "quantity": "1",
+            "unit": "box"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Add Cake Starter, Sliced Peaches, and 2 1/2 cups of Sugar into a jar. Stir once a day for 10 days. Cover with a loose lid"
+        },
+        {
+            "step": "On the 10th day, add Pineapple and 2 1/2 cups of sugar. Stir once a day for 10 days. Cover with a loose lid"
+        },
+        {
+            "step": "On the 20th day, chop Cherries in half. Add cherries and 2 1/2 cups of sugar. Stir once a day for 10 days. Cover with a loose lid"
+        },
+        {
+            "step": "On the 30th day, drain the fruit and save the juice to use for future cakes"
+        },
+        {
+            "step": "Combine remaining ingredients in a bowl with 1 1/2 cups of Cake Starter. Mix thoroughly"
+        },
+        {
+            "step": "Grease a cake pan and pour cake batter into it. Bake at 325F for 60 minutes or until golden brown"
+        }
+    ]
+}

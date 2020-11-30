@@ -1,0 +1,67 @@
+{
+    "name": "Pizza Sauce",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "San Marzano Tomatoes (Whole-Peeled)",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Tomato Paste",
+            "quantity": "1",
+            "unit": "can"
+        },
+        {
+            "name": "Basil",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Thyme",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "12",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Oregano",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ground Cinnamon",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Onion Powder",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Garlic Powder",
+            "quantity": "1",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mash San Marzano tomatoes in a bowl until very fine"
+        },
+        {
+            "step": "Add Tomato Paste and stir until thick"
+        },
+        {
+            "step": "Add Basil, Thyme, Onion Powder, Garlic Powder, Sugar, Salt, Oregano, and Cinnamo to sauce and mix thoroughly"
+        }
+    ]
+}
