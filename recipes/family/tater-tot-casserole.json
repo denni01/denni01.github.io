@@ -1,0 +1,32 @@
+{
+    "name": "Tater Tot Casserole",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Hamburger",
+            "quantity": "2",
+            "unit": "lb"
+        },
+        {
+            "name": "Cream of Mushroom Soup",
+            "quantity": "2",
+            "unit": "can"
+        },
+        {
+            "name": "Shredded Cheddar Cheese",
+            "quantity": "2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Fry hamburger and drain grease"
+        },
+        {
+            "step": "Mix Hamburger, Cream of Mushroom Soup, and Shredded Cheddar Cheese in a baking dish"
+        },
+        {
+            "step": "Bake at 350F until Tater Tots are cooked through and cheese is melted. Top with sour cream"
+        }
+    ]
+}
