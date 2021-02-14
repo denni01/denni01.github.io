@@ -1,0 +1,37 @@
+{
+    "name": "Popcorn Balls",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Butter",
+            "quantity": "4",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Marshmallows",
+            "quantity": "1",
+            "unit": "bag"
+        },
+        {
+            "name": "Peanut Butter",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Microwave Popcorn",
+            "quantity": "2",
+            "unit": "bag"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Microwave Popcorn according to instructions on package"
+        },
+        {
+            "step": "Melt Butter and Marshmallows in a saucepan. Stir in Peanut Butter"
+        },
+        {
+            "step": "Pour mixture over popcorn. Roll Popcorn into balls"
+        }
+    ]
+}

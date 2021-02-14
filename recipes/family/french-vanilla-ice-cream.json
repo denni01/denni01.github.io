@@ -1,0 +1,50 @@
+{
+    "name": "French Vanilla Ice Cream",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Milk",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "3",
+            "unit": "none"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/8",
+            "unit": "tsp"
+        },
+        {
+            "name": "Cream",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Vanilla",
+            "quantity": "2",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mix Sugar, Salt and Eggs in a bowl"
+        },
+        {
+            "step": "Mix Milk into mixture"
+        },
+        {
+            "step": "Cook in double boiler until mixture coats spoon. Cool and strain"
+        },
+        {
+            "step": "Add Cream and Vanilla into mixture and freeze"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Tuna Linguine Primavera",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Linguine Noodles",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Mixed Vegetables",
+            "quantity": "16",
+            "unit": "oz"
+        },
+        {
+            "name": "Tuna",
+            "quantity": "12",
+            "unit": "oz"
+        },
+        {
+            "name": "Mayonnaise",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Parmesan Cheese",
+            "quantity": "1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Garlic Powder",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Basil",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Red Pepper Flakes",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cook Linguine Noodles in a pot according to package directions. Add Mixed Vegetables during the last 4 minutes of cooking. Drain and return contents to pot"
+        },
+        {
+            "step": "Mix Tuna, Mayonnaise, Milk, Parmesan Cheese, Garlic Powder, Basil, and Red Pepper Flakes into Pasta"
+        }
+    ]
+}

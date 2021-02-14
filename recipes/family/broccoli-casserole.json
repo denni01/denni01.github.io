@@ -1,0 +1,57 @@
+{
+    "name": "Broccoli Casserole",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Broccoli",
+            "quantity": "2",
+            "unit": "head"
+        },
+        {
+            "name": "Chicken Breast",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Cream of Chicken Soup",
+            "quantity": "10",
+            "unit": "oz"
+        },
+        {
+            "name": "Mayonnaise",
+            "quantity": "1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Lemon Juice",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Curry Powder",
+            "quantity": "1/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Shredded Cheddar Cheese",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Breadcrumbs",
+            "quantity": "1/2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Add Broccoli and Chicken to a baking dish"
+        },
+        {
+            "step": "Mix Cream of Chicken Soup, Mayonnaise, Curry Powder, and Lemon Juice in a bowl. Pour mixture into baking dish"
+        },
+        {
+            "step": "Sprinkle Shredded Cheedar Cheese and Breadcrumbs over top of casserole. Bake at 350F for 30 minutes"
+        }
+    ]
+}

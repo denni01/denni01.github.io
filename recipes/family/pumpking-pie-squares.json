@@ -1,0 +1,90 @@
+{
+    "name": "Pumpkin Pie Squares",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Butter",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Brown Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Flour",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Oats",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "2",
+            "unit": "none"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "3/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Pumpkin",
+            "quantity": "15",
+            "unit": "oz"
+        },
+        {
+            "name": "Evaporated Milk",
+            "quantity": "12",
+            "unit": "oz"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ground Cinnamon",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ground Ginger",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ground Clove",
+            "quantity": "1/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Ground Nutmeg",
+            "quantity": "1/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Pecans",
+            "quantity": "1/2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Create a crust by mixing Butter and Brown Sugar. Slowly mix Flour into crust batter. Slowly mix in Oats into crust batter. Press crust into a baking dish"
+        },
+        {
+            "step": "Bake the crust in the oven at 350F for 15 minutes"
+        },
+        {
+            "step": "Chop Pecans. Mix Eggs and White Sugar in a large bowl. Mix in Pumpkin and Evaporated Milk. Mix in Salt, Ground Cinnamon, Ground Ginger, Ground Clove, and Ground Nuetmeg. Pour batter into baked crust. Top pie with Pecans"
+        },
+        {
+            "step": "Bake the pie at 350F for 20 minutes. Let cool and cut into squares"
+        }
+    ]
+}

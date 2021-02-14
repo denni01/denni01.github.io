@@ -1,0 +1,45 @@
+{
+    "name": "Hash Brown Casserole",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Mixed Vegetables",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Ground Turkey",
+            "quantity": "1",
+            "unit": "lb"
+        },
+        {
+            "name": "Cream of Mushroom Soup",
+            "quantity": "20",
+            "unit": "oz"
+        },
+        {
+            "name": "Shredded Cheddar Cheese",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Hash Browns",
+            "quantity": "3",
+            "unit": "lb"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cook Ground Turkey in a pan. Drain grease"
+        },
+        {
+            "step": "Add Hash Browns to the bottom of a baking dish"
+        },
+        {
+            "step": "Mix Cream of Mushroom Soup, Mixed Vegetables, Turkey in a bowl. Pour mixture over top of Hash Browns"
+        },
+        {
+            "step": "Top Hash Browns with Cheddar Cheese. Bake at 350F for 45 minutes or until Hash Browns are golden brown"
+        }
+    ]
+}

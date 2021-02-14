@@ -1,0 +1,44 @@
+{
+    "name": "Golden Chicken with Rice",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Long Grain Rice",
+            "quantity": "3/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Cream of Mushroom Soup",
+            "quantity": "10",
+            "unit": "oz"
+        },
+        {
+            "name": "Cream of Celery Soup",
+            "quantity": "10",
+            "unit": "oz"
+        },
+        {
+            "name": "Water",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Chicken Legs",
+            "quantity": "4",
+            "unit": "none"
+        },
+        {
+            "name": "Onion Soup Seasoning Packet",
+            "quantity": "1",
+            "unit": "none"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mix Long Grain Rice, Onion Soup Seasoning Packet, Cream of Mushroom Soup, Cream of Celery Soup, and Water in a baking dish"
+        },
+        {
+            "step": "Add Chicken Legs to baking dish. Cover with aluminum foil and bake at 350F for 2 hours or until Chicken Legs are cooked through and Rice is tender"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Fruit Pizza",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Sugar Cookie Dough",
+            "quantity": "1",
+            "unit": "package"
+        },
+        {
+            "name": "Cream Cheese",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Vanilla",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Powdered Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Mandarin Oranges",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Blueberries",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Kiwi",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Strawberries",
+            "quantity": "1/2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Roll out Sugar Cookie Dough onto a pan. Bake at 350F for 16-20 minutes until golden brown. Cool completely on a wire rack"
+        },
+        {
+            "step": "Combine Cream Cheese, Powdered Sugar, and Vanilla into a bowl. Mix with a mixer until fluffy. Spread mixture over Sugar Cookie Dough crust"
+        },
+        {
+            "step": "Decorate with Mandarin Oranges, Blueberries, Kiwi, Strawberries and other fruits"
+        }
+    ]
+}

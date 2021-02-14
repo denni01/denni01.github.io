@@ -1,0 +1,50 @@
+{
+    "name": "Hard Candy",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Sugar",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Light Corn Syrup",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Water",
+            "quantity": "3/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Flavoring",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Food Coloring",
+            "quantity": "1/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Powdered Sugar",
+            "quantity": "2",
+            "unit": "tbsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mix Sugar, Corn Syrup, Water in a saucepan over medium heat, stirring frequently until Sugar dissolves. Bring to a boil without stirring"
+        },
+        {
+            "step": "When syrup reaches 260F, add Food Coloring. Do not stir. Remove from heat at 300F. Add Flavoring and stir"
+        },
+        {
+            "step": "Pour syrup onto a greased cookie sheet. Use a knife to cut into rough squares. Let candy cool"
+        },
+        {
+            "step": "Break candy into pieces and dust with powdered sugar"
+        }
+    ]
+}

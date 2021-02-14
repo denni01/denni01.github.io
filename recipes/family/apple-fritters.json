@@ -1,0 +1,58 @@
+{
+    "name": "Apple Fritters",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Flour",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Baking Powder",
+            "quantity": "1 1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Eggs",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Milk",
+            "quantity": "9",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Apples",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Peel and dice Apples"
+        },
+        {
+            "step": "Sift Flour, Baking Powder, Salt, and Sugar together"
+        },
+        {
+            "step": "Beat Egg and add Milk. Pour into dry ingredients and stir until batter is smooth"
+        },
+        {
+            "step": "Add Apples to batter and blend well"
+        },
+        {
+            "step": "Drop by spoonfuls and fry in hot oil until golden brown on both sides"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Hot Chicken Salad Sandwiches",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Chicken Breast",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Celery",
+            "quantity": "2",
+            "unit": "cup"
+        },
+        {
+            "name": "Lemon Juice",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Mayonnaise",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Onion Salt",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Mustard",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Bread",
+            "quantity": "2",
+            "unit": "slice"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cut Celery into small pieces"
+        },
+        {
+            "step": "Cook Chicken Breast in a skillet. Cut Chicken Breast into small pieces"
+        },
+        {
+            "step": "Mix Chicken Breast, Celery, Lemon Juice, Mayonnaise, Onion Salt, Mustard, and Salt in a large bowl until thoroughly combined. Spread mixture over Bread"
+        }
+    ]
+}

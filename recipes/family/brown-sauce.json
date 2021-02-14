@@ -1,0 +1,77 @@
+{
+    "name": "Brown Sauce",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Chicken Stock",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Soy Sauce",
+            "quantity": "3",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "2 1/2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Wine",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Oyster Sauce",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Hoisin Sauce",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Dark Mushroom Flavored Soy Sauce",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Sesame Oil",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Green Onion",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Ginger",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "2",
+            "unit": "tsp"
+        },
+        {
+            "name": "White Pepper",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Mince Green Onion, Ginger, and Garlic"
+        },
+        {
+            "step": "Combine Soy Sauce, Sugar, Wine, Oyster Sauce, Hoisin Sauce, Dark Mushroom Flavored Soy Sauce, Sesame Oil, Green Onion, Ginger, and Garlic into a bowl"
+        },
+        {
+            "step": "Bring Chicken Stock to a boil. Mix into sauce. Let cool for an hour. Strain Sauce to remove minced Green Onion, Ginger, and Garlic"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Chicken Piccata",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Chicken Breast",
+            "quantity": "1 1/2",
+            "unit": "lb"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Pepper",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Flour",
+            "quantity": "1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "4",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Mushrooms",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Garlic Powder",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Chicken Broth",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Lemon Juice",
+            "quantity": "1",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Pound Chicken into 1/2 inch pieces. Cover with Salt and Pepper. Coat chicken with flour"
+        },
+        {
+            "step": "Brown Chicken in a skillet with 3 tablespoons of Butter. Add 1 tablespoon of Butter, Mushrooms and Garlic to the skillet and cook until tender"
+        },
+        {
+            "step": "Add Chicken Broth and Lemon Juice to skillet. Simmer for 10-15 minutes, stirring occasionally until the sauce thickens"
+        }
+    ]
+}

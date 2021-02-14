@@ -1,0 +1,77 @@
+{
+    "name": "Cucumber Pasta",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Multicolored Rotini Noodles",
+            "quantity": "1",
+            "unit": "lb"
+        },
+        {
+            "name": "Oil",
+            "quantity": "2/3",
+            "unit": "cup"
+        },
+        {
+            "name": "White Vinegar",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Cucumber",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Dry Mustard",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Garlic Powder",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Pepper",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Parsley",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Dillweed",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Add Multicolored Rotini Noodles with enough water to cover in a pot. Cook to desired doneness. Drain and rinse with cold water"
+        },
+        {
+            "step": "Chop Onion and Cucumber into small pieces"
+        },
+        {
+            "step": "Add Multicolored Rotini Noodles to a bowl or baking dish. Mix in Oil, White Vinegar, Sugar, Onion, Cucumber, Salt, Dry Mustard, Garlic Powder, Pepper, Parsley, and Dillweed. Chill overnight"
+        }
+    ]
+}

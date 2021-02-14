@@ -1,0 +1,42 @@
+{
+    "name": "Stromboli",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Pizza Dough",
+            "quantity": "8",
+            "unit": "oz"
+        },
+        {
+            "name": "Shredded Mozzarella Cheese",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Pepperoni",
+            "quantity": "3",
+            "unit": "oz"
+        },
+        {
+            "name": "Salami",
+            "quantity": "3",
+            "unit": "oz"
+        },
+        {
+            "name": "Pizza Sauce",
+            "quantity": "1/4",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Lightly dust working surface with flour. Roll out pizza dough into a rectangle"
+        },
+        {
+            "step": "Add a layer of Shredded Mozzarella Cheese. Add a layer of Pepperoni. Add a layer of Salami. Repeat."
+        },
+        {
+            "step": "Roll the dough up tightly and seal edges. Cut small slits across the top every 2 inches. Place onto a baking sheet and bake at 375F for 20-25 minutes"
+        }
+    ]
+}

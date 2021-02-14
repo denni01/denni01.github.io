@@ -1,0 +1,62 @@
+{
+    "name": "Candied Popcorn",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Microwave Popcorn",
+            "quantity": "4",
+            "unit": "qt"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "1 1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Light Corn Syrup",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Cream of Tartar",
+            "quantity": "1/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Baking Soda",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Flavoring",
+            "quantity": "1",
+            "unit": "tsp"
+        },
+        {
+            "name": "Food Coloring",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cook Microwave Popcorn according to instructions. Add popcorn to a large bowl"
+        },
+        {
+            "step": "Mix Sugar, Corn Syrup, Butter, Salt, and Cream of Tartar in a saucepan. Bring to a boil, stirring constantly. Let temperature of mixture rise to 250F without stirring. Mix in Flavoring and Food Coloring. Quickly stir in Baking Soda. Pour mixture over popcorn."
+        },
+        {
+            "step": "Shape popcorn into balls or break into pieces when cooled"
+        }
+    ]
+}

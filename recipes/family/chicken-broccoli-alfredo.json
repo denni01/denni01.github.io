@@ -1,0 +1,57 @@
+{
+    "name": "Chicken & Broccoli Alfredo",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Fettucine Noodles",
+            "quantity": "6",
+            "unit": "oz"
+        },
+        {
+            "name": "Broccoli Flowerets",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Chicken Breast",
+            "quantity": "1",
+            "unit": "lb"
+        },
+        {
+            "name": "Cream of Mushroom Soup",
+            "quantity": "10",
+            "unit": "oz"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Parmesan Cheese",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Pepper",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cook Fettucine Noodles according to package directions. Add Broccoli for last 4 minutes of cooking. Strain noodles and broccoli"
+        },
+        {
+            "step": "Melt Butter in a skillet over medium-high heat. Add Chicken Breast and cook until browned, stirring often"
+        },
+        {
+            "step": "Add Cream of Mushroom Soup, Milk, Parmesan Cheese, and Pepper to skillet and cook through, stirring often"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Tuna Wrap",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Mayonnaise",
+            "quantity": "1",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Tuna",
+            "quantity": "3",
+            "unit": "oz"
+        },
+        {
+            "name": "Carrots",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Red Pepper",
+            "quantity": "3/4",
+            "unit": "oz"
+        },
+        {
+            "name": "Romaine Lettuce",
+            "quantity": "1",
+            "unit": "none"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Shred Carrots. Cut Red Pepper into thin slices"
+        },
+        {
+            "step": "Mix Tuna, Mayonnaise, Carrots, and Red Pepper in a small bowl. Add mixture to a leaf of Romaine Lettuce"
+        }
+    ]
+}

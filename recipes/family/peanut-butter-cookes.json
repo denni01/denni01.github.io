@@ -1,0 +1,59 @@
+{
+    "name": "Peanut Butter Cookies",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Brown Sugar",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "8",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Peanut Butter",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Egg",
+            "quantity": "1",
+            "unit": "none"
+        },
+        {
+            "name": "Flour",
+            "quantity": "1 1/4",
+            "unit": "cup"
+        },
+        {
+            "name": "Baking Soda",
+            "quantity": "3/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Baking Powder",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1/4",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Beat Butter in a bowl for 2 minutes with a mixer until creamy. Mix in Sugar and Brown Sugar for 2 minutes. Mix in Peanut Butter and Egg until mixed thoroughly. Mix Flour, Baking Soda, Baking Powder, and Salt until mixed thoroughly. Wrap dough in plastic and refrigerate for at least 3 hours"
+        },
+        {
+            "step": "Shape dough into 1 inch balls. Place dough balls 3 inches apart on an ungreased cookie sheet. Flatten cookies with a fork in a criss-cross pattern. Bake at 375F for 9-10 minutes until lightly browned. Cool on a wire rack"
+        }
+    ]
+}
