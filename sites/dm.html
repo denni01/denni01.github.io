@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="has-background-link">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D&M Plumbing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        .navbar-item:hover {
+            background-color: transparent !important;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navBarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            navBarBurgers.forEach(element => {
+                element.addEventListener('click', () => {
+                    const target = element.dataset.target;
+                    const targetElement = document.getElementById(target);
+                    element.classList.toggle('is-active');
+                    targetElement.classList.toggle('is-active');
+                });
+            });
+
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            let container = document.getElementById('emergency-container');
+            let anchorTag = document.createElement('a');
+            anchorTag.innerHTML = '<b>Call us</b>'
+            anchorTag.classList.add('button');
+            anchorTag.classList.add('mx-2');
+            anchorTag.classList.add('p-5');
+
+            if (/iPad|iPhone|iPod|Macintosh/.test(userAgent) && !window.MSStream) {
+                anchorTag.href = 'sms:/16148675309&body=I\'m contacting you through your website. I have a plumbing emergency.'
+            } else {
+                anchorTag.href = 'sms:/16148675309?body=I\'m contacting you through your website. I have a plumbing emergency.';
+            }
+
+            container.appendChild(anchorTag);
+        });
+    </script>
+</head>
+
+<body class="has-navbar-fixed-top has-background-link">
+    <nav class="navbar is-fixed-top has-background-link" role="navigation" aria-label="main navigation">
+        <div class="is-flex">
+            <div style="width: 100%"
+                class="navbar-brand is-flex is-align-items-center is-justify-content-space-between">
+                <div class="is-flex is-align-items-center">
+                    <a role="button" style="margin-left: 0" class="navbar-burger" aria-label="menu"
+                        aria-expanded="false" data-target="navigationBar">
+                        <span class="has-background-white" aria-hidden="true"></span>
+                        <span class="has-background-white" aria-hidden="true"></span>
+                        <span class="has-background-white" aria-hidden="true"></span>
+                    </a>
+
+                    <a class="has-text-white is-size-4 ml-2">D&M Plumbing</a>
+                </div>
+                <p class="has-text-white mx-2">(614) 867-5309</p>
+            </div>
+        </div>
+
+        <div id="navigationBar" class="navbar-menu has-background-link">
+            <div class="navbar-start has-background-link">
+                <a class="navbar-item has-text-white">Home</a>
+                <a class="navbar-item has-text-white">Services</a>
+                <a class="navbar-item has-text-white">Hours</a>
+                <a class="navbar-item has-text-white">Reviews</a>
+                <a class="navbar-item has-text-white">Pay</a>
+            </div>
+        </div>
+
+        <div class="navbar-end"></div>
+    </nav>
+
+    <div id="emergency-container" style="height: 80px"
+        class="is-flex is-align-items-center is-justify-content-center has-background-danger-dark">
+        <p class="has-text-white mx-2 is-size-2">Emergency?</p>
+    </div>
+
+    <div class="is-flex is-justify-content-center mt-3">
+        <img class="block" src="./logo.png" height="160px" />
+    </div>
+
+    <h1 class="has-text-white is-size-3 mt-3 ml-2">Services</h1>
+    <div class="columns m-2">
+        <div class="column is-one-third">
+            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+                <div class="mt-2">
+                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                        class="material-symbols-outlined has-text-white has-background-link">plumbing</span>
+                </div>
+                <p>Services</p>
+                <div style="width: 100%" class="columns mt-1 mb-1 is-mobile">
+                    <div class="column is-half">
+                        <p>Water Lines</p>
+                        <p>Gas Lines</p>
+                    </div>
+                    <div class="column is-half">
+                        <p>Hot Water Heaters</p>
+                        <p>Sewers</p>
+                    </div>
+                </div>
+                <!-- <p class="m-3">We offer several services including repair and replacement of hot water heaters, water lines, gas lines, sewers, and more.</p>
+                <a class="has-text-link mb-2">Learn More</a> -->
+            </div>
+            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center mt-5">
+                <div class="mt-2">
+                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                        class="material-symbols-outlined has-text-white has-background-link">verified</span>
+                </div>
+                <p>Licensed. Bonded. Insured.</p>
+                <p class="m-3">We are licensed in the State of Ohio and D.O.T. certified.</p>
+            </div>
+        </div>
+        <div class="column is-one-third">
+            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+                <div class="mt-2">
+                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                        class="material-symbols-outlined has-text-white has-background-link">map</span>
+                </div>
+                <p>Service Area</p>
+                <p class="m-3">We provide services throughout all of Ohio. Not sure if we're available in your area?
+                    Call or text us at (614) 867-5309.</p>
+            </div>
+        </div>
+        <div class="column is-one-third">
+            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+                <div class="mt-2">
+                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                        class="material-symbols-outlined has-text-white has-background-link">calendar_month</span>
+                </div>
+                <p>Working Hours</p>
+                <p class="m-3">Our primary working hours are Monday-Friday 8am-5pm.</p>
+                <p class="m-3">Need service in the evening or on the weekend? Call or text us at (614) 867-5309.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
