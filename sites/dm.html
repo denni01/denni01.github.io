@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>D&M Plumbing</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
         .navbar-item:hover {
             background-color: transparent !important;
@@ -15,32 +14,18 @@
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const navBarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            navBarBurgers.forEach(element => {
-                element.addEventListener('click', () => {
-                    const target = element.dataset.target;
-                    const targetElement = document.getElementById(target);
-                    element.classList.toggle('is-active');
-                    targetElement.classList.toggle('is-active');
-                });
-            });
-
             let userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            let container = document.getElementById('emergency-container');
-            let anchorTag = document.createElement('a');
-            anchorTag.innerHTML = '<b>Call us</b>'
-            anchorTag.classList.add('button');
-            anchorTag.classList.add('mx-2');
-            anchorTag.classList.add('p-5');
-
+            let link;
             if (/iPad|iPhone|iPod|Macintosh/.test(userAgent) && !window.MSStream) {
-                anchorTag.href = 'sms:/16148675309&body=I\'m contacting you through your website. I have a plumbing emergency.'
+                link = 'sms:/17408042355&body=I\'m contacting you through your website. I have a plumbing emergency.';
             } else {
-                anchorTag.href = 'sms:/16148675309?body=I\'m contacting you through your website. I have a plumbing emergency.';
+                link = 'sms:/17408042355?body=I\'m contacting you through your website. I have a plumbing emergency.'
             }
 
-            container.appendChild(anchorTag);
+            const textMessageElements = Array.prototype.slice.call(document.querySelectorAll('.text-message-element'), 0);
+            textMessageElements.forEach(element => {
+                element.setAttribute('href', link);
+            });
         });
     </script>
 </head>
@@ -48,98 +33,237 @@
 <body class="has-navbar-fixed-top has-background-link">
     <nav class="navbar is-fixed-top has-background-link" role="navigation" aria-label="main navigation">
         <div class="is-flex">
-            <div style="width: 100%"
-                class="navbar-brand is-flex is-align-items-center is-justify-content-space-between">
+            <div style="width: 100%" class="navbar-brand is-flex is-align-items-center is-justify-content-space-between">
                 <div class="is-flex is-align-items-center">
-                    <a role="button" style="margin-left: 0" class="navbar-burger" aria-label="menu"
-                        aria-expanded="false" data-target="navigationBar">
-                        <span class="has-background-white" aria-hidden="true"></span>
-                        <span class="has-background-white" aria-hidden="true"></span>
-                        <span class="has-background-white" aria-hidden="true"></span>
-                    </a>
-
-                    <a class="has-text-white is-size-4 ml-2">D&M Plumbing</a>
+                    <a class="has-text-white is-size-4 ml-2" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" >D&M Plumbing</a>
                 </div>
-                <p class="has-text-white mx-2">(614) 867-5309</p>
-            </div>
-        </div>
-
-        <div id="navigationBar" class="navbar-menu has-background-link">
-            <div class="navbar-start has-background-link">
-                <a class="navbar-item has-text-white">Home</a>
-                <a class="navbar-item has-text-white">Services</a>
-                <a class="navbar-item has-text-white">Hours</a>
-                <a class="navbar-item has-text-white">Reviews</a>
-                <a class="navbar-item has-text-white">Pay</a>
+                <a class="text-message-element has-text-white mx-2">(740) 804-2355</a>
             </div>
         </div>
 
         <div class="navbar-end"></div>
     </nav>
 
-    <div id="emergency-container" style="height: 80px"
-        class="is-flex is-align-items-center is-justify-content-center has-background-danger-dark">
+    <div id="emergency-container" style="height: 80px" class="is-flex is-align-items-center is-justify-content-center has-background-danger-dark">
         <p class="has-text-white mx-2 is-size-2">Emergency?</p>
+        <a class="button mx-2 p-5" href="tel:+17408042355"><b>Call us</b></a>
     </div>
 
     <div class="is-flex is-justify-content-center mt-3">
         <img class="block" src="./logo.png" height="160px" />
     </div>
 
-    <h1 class="has-text-white is-size-3 mt-3 ml-2">Services</h1>
-    <div class="columns m-2">
-        <div class="column is-one-third">
-            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-                <div class="mt-2">
-                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
-                        class="material-symbols-outlined has-text-white has-background-link">plumbing</span>
-                </div>
-                <p>Services</p>
-                <div style="width: 100%" class="columns mt-1 mb-1 is-mobile">
-                    <div class="column is-half">
-                        <p>Water Lines</p>
-                        <p>Gas Lines</p>
-                    </div>
-                    <div class="column is-half">
-                        <p>Hot Water Heaters</p>
-                        <p>Sewers</p>
-                    </div>
-                </div>
-                <!-- <p class="m-3">We offer several services including repair and replacement of hot water heaters, water lines, gas lines, sewers, and more.</p>
-                <a class="has-text-link mb-2">Learn More</a> -->
-            </div>
-            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center mt-5">
-                <div class="mt-2">
-                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
-                        class="material-symbols-outlined has-text-white has-background-link">verified</span>
-                </div>
-                <p>Licensed. Bonded. Insured.</p>
-                <p class="m-3">We are licensed in the State of Ohio and D.O.T. certified.</p>
-            </div>
+    <h1 class="has-text-white is-size-3 mt-3 ml-2" style="text-align: center">Residential & Commercial Services</h1>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">home_repair_service</span>
         </div>
-        <div class="column is-one-third">
-            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-                <div class="mt-2">
-                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
-                        class="material-symbols-outlined has-text-white has-background-link">map</span>
-                </div>
-                <p>Service Area</p>
-                <p class="m-3">We provide services throughout all of Ohio. Not sure if we're available in your area?
-                    Call or text us at (614) 867-5309.</p>
+        <p><b>New Installation or Repair</b></p>
+        <p class="m-3">We can install, repair, or replace water lines, gas lines, and drain lines. We can work with most materials including:</p>
+        <div class="columns mt-1 mb-1 is-mobile">
+            <div class="column is-half">
+                <p>PVC</p>
+                <p>ABS</p>
+                <p>Cast Iron</p>
+                <p>Copper</p>
             </div>
-        </div>
-        <div class="column is-one-third">
-            <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-                <div class="mt-2">
-                    <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
-                        class="material-symbols-outlined has-text-white has-background-link">calendar_month</span>
-                </div>
-                <p>Working Hours</p>
-                <p class="m-3">Our primary working hours are Monday-Friday 8am-5pm.</p>
-                <p class="m-3">Need service in the evening or on the weekend? Call or text us at (614) 867-5309.</p>
+            <div class="column is-half">
+                <p>Pex</p>
+                <p>CPVC</p>
+                <p>Galvanized</p>
             </div>
         </div>
     </div>
-</body>
 
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">heat_pump</span>
+        </div>
+        <p><b>Well Pumps</b></p>
+        <p class="m-3">We can install new well pumps</p>
+        <p>Submersible Pumps</p>
+        <p>Jet Pumps</p>
+        <p>Pressure Switch</p>
+        <p>Pump Piping and Wiring</p>
+        <p>Pressure Tanks</p>
+        <p>Whole House Filters</p>
+        <p>Control Box</p>
+        <p class="m-1"></p>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">water_heater</span>
+        </div>
+        <p><b>Water Heaters</b></p>
+        <p style="text-align: center" class="m-4">We can troubleshoot, install, repair, and replace water heaters</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Gas Water Heaters</b></p>
+            <p>Diagnose error codes</p>
+            <p>Install ventilation</p>
+        </div>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Electric Water Heaters</b></p>
+            <p>Diagnose extremely hot or cold water</p>
+            <p>Troubleshoot lack of hot water</p>
+        </div>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Tankless Water Heaters</b></p>
+            <p>Diagnose error codes</p>
+            <p>Yearly maintenance</p>
+        </div>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Expansion Tanks</b></p>
+            <p>Installation</p>
+        </div>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">gas_meter</span>
+        </div>
+        <p><b>Gas Lines</b></p>
+        <p style="text-align: center" class="mt-4 ml-4 mr-4">We can install, repair, and replace gas lines.</p>
+        <p style="text-align: center" class="">We are D.O.T certified in the state of Ohio.</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Services</b></p>
+            <p>Residential Service Lines</p>
+            <p>Commercial Service Lines</p>
+            <p>Gas Meter Installation</p>
+            <p>Gas Meter Upgrades</p>
+        </div>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">valve</span>
+        </div>
+        <p><b>Drain Lines</b></p>
+        <p style="text-align: center" class="mt-4 ml-4 mr-4">We can install, repair, and replace drain lines.</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Services</b></p>
+            <p>Find & Remove Obstructions</p>
+            <p>Install Drain Lines</p>
+            <p>Repair Drain Lines</p>
+        </div>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">plumbing</span>
+        </div>
+        <p><b>Sump Pumps</b></p>
+        <p style="text-align: center" class="mt-4 ml-4 mr-4">We can install, repair, and replace sump pumps.</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Services</b></p>
+            <p>Install Sump Pump</p>
+            <p>Repair Sump Pump</p>
+        </div>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">plumbing</span>
+        </div>
+        <p><b>Sewage Ejector Pits</b></p>
+        <p style="text-align: center" class="mt-4 ml-4 mr-4">We can install, repair, and replace sewer pumps.</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-2">
+            <p><b>Services</b></p>
+            <p>Install Sewer Pump</p>
+            <p>Repair Sewer Pump</p>
+            <p>Fix Sewer Pump Alarm</p>
+        </div>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">house</span>
+        </div>
+        <p><b>Fixture Replacement</b></p>
+        <p style="text-align: center" class="mt-4 ml-4 mr-4">We can install, repair, and replace some home appliances.</p>
+
+        <div class="is-flex is-flex-direction-column is-align-items-center m-3">
+            <p><b>Services</b></p>
+            <p>Kitchen Sinks</p>
+            <p>Indoor Faucets</p>
+            <p>Outdoor Faucets</p>
+            <p>Disposals</p>
+            <p>Strainers</p>
+            <p>Reverse Osmosis</p>
+            <p>Dishwashers</p>
+            <p>Toilets</p>
+            <p>Frost Free Hydrant</p>
+            <p>Hot/Cold Water Dispensers</p>
+            <p>Ice Maker Water Lines</p>
+        </div>
+    </div>
+
+    <h1 class="has-text-white is-size-3 mt-3 ml-2" style="text-align: center">About Us</h1>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">plumbing</span>
+        </div>
+        <p class="mb-1"><b>Services</b></p>
+        <p>Water Lines</p>
+        <p>Gas Lines</p>
+        <p>Drain Lines</p>
+        <p>Hot Water Heaters</p>
+        <p>Fixture Installation & Repair</p>
+        <p>Well Pumps</p>
+        <p>Sump Pumps</p>
+        <p>Sewers</p>
+        <p>Sewage Ejector Pits</p>
+        <p>Frost Free Hydrant</p>
+        <p class="m-1"></p>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">map</span>
+        </div>
+        <p><b>Service Area</b></p>
+        <p class="m-3">We provide services throughout all of Ohio. Not sure if we're available in your area? <a
+                class="text-message-element">Call or text us at (740) 804-2355.</a></p>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">calendar_month</span>
+        </div>
+        <p><b>Working Hours</b></p>
+        <p class="m-3">Our standard working hours are Monday-Friday 8am-5pm.</p>
+        <p class="m-3">Need service in the evening or on the weekend? <a class="text-message-element">Call or text us at
+                (740) 804-2355.</a></p>
+    </div>
+
+    <div class="card is-flex is-flex-direction-column is-align-items-center is-justify-content-center m-3">
+        <div class="mt-2">
+            <span style="font-size: 3rem; padding: 0.5rem; border-radius: 50%"
+                class="material-symbols-outlined has-text-white has-background-link">verified</span>
+        </div>
+        <p><b>Licensed. Bonded. Insured.</b></p>
+        <p class="m-3" style="text-align: center">We are licensed in the State of Ohio and D.O.T. certified.</p>
+    </div>
+</body>
 </html>
