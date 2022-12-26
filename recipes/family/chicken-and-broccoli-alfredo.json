@@ -1,0 +1,63 @@
+{
+    "name": "Chicken & Broccoli Alfredo",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Linguine Noodles",
+            "quantity": "1/2",
+            "unit": "lb"
+        },
+        {
+            "name": "Broccoli",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Butter",
+            "quantity": "2",
+            "unit": "tbsp"
+        },
+        {
+            "name": "Chicken Breast",
+            "quantity": "1 1/4",
+            "unit": "lb"
+        },
+        {
+            "name": "Campbell's Condensed Cream of Mushroom Soup",
+            "quantity": "1",
+            "unit": "can"
+        },
+        {
+            "name": "Milk",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Parmesan Cheese",
+            "quantity": "1/2",
+            "unit": "cup"
+        },
+        {
+            "name": "Black Pepper",
+            "quantity": "1/2",
+            "unit": "tsp"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Cut chicken breast into small pieces around 1 1/2\" pieces"
+        },
+        {
+            "step": "Prepare linguine according to package directions. Add broccoli during last 4 minutes of cooking time"
+        },
+        {
+            "step": "Drain pasta and broccoli"
+        },
+        {
+            "step": "Add butter to a skillet over medium-high heat. Add chicken and cook until browned"
+        },
+        {
+            "step": "Add remaining ingredients to the skillet and cook until mixture is hot and bubbling, stirring occasionally"
+        }
+    ]
+}

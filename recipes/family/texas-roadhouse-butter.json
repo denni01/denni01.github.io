@@ -1,0 +1,39 @@
+{
+    "name": "Texas Roadhouse Butter",
+    "image": "",
+    "ingredients": [
+        {
+            "name": "Butter",
+            "quantity": "1",
+            "unit": "cup"
+        },
+        {
+            "name": "Sweetened Condensed Milk",
+            "quantity": "1/3",
+            "unit": "cup"
+        },
+        {
+            "name": "Corn Syrup",
+            "quantity": "1/2",
+            "unit": "tsp"
+        },
+        {
+            "name": "Cinnamon",
+            "quantity": "3/4",
+            "unit": "tsp"
+        },
+        {
+            "name": "Honey",
+            "quantity": "1/4",
+            "unit": "cup"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Allow butter to soften at room temperature"
+        },
+        {
+            "step": "Thoroughly combine ingredients"
+        }
+    ]
+}

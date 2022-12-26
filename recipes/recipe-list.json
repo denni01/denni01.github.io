@@ -290,5 +290,21 @@
     {
         "title": "Meatballs",
         "path": "https://denni01.github.io/recipes/family/meat-balls.json"
+    },
+    {
+        "title": "Baked Potato Soup",
+        "path": "https://denni01.github.io/recipes/family/baked-potato-soup.json"
+    },
+    {
+        "title": "Chicken & Broccoli Alfredo",
+        "path": "https://denni01.github.io/recipes/family/chicken-and-broccoli-alfredo.json"
+    },
+    {
+        "title": "Texas Roadhouse Butter",
+        "path": "https://denni01.github.io/recipes/family/texas-roadhouse-butter.json"
+    },
+    {
+        "title": "Country Breakfast Bake",
+        "path": "https://denni01.github.io/recipes/family/country-breakfast-bake.json"
     }
 ]
